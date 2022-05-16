@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(circle, #64e6e6, #e591e5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    display: block;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    background-color: white;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    border: 0;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: #ff0080;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+input[type="text"]{
+    padding: 6px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.complete{
+    border: 0;
+    padding: 5px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: #00da62;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0;
+}
+.delete{
+    border: 0;
+    padding: 5px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: #ff0080;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0;
+}
+.edit{
+    border: 0;
+    padding: 5px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: #0066ff;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0;
+}
+.todo h4{
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+}
+.todo{
+    margin-bottom: 5px;
+}
+input:disabled{
+    opacity: 0.2;
+}

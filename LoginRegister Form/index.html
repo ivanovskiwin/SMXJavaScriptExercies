@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginRegister Form</title>
+</head>
+<body>
+    <div id="loginForm">
+        <h1>Login</h1>
+        <label for="loginEmail">Email: </label>
+        <input type="email" name="loginEmail" id="loginEmail">
+        <br><br>
+        <label for="loginPassword">Password: </label>
+        <input type="password" name="loginPassword" id="loginPassword">
+        <br><br>
+        <input type="submit" name="login" id="login" value="Login">
+        <p>If you want to register <a href="#" id="wantToRegister">Click Here</a></p>
+    </div>
+    <div id="registerForm">
+        <h1>Register</h1>
+        <label for="registrationEmail">Enter your email: </label>
+        <input type="email" name="registerEmail" id="registerEmail" required>
+        <br><br>
+        <label for="confirmEmail">Re-enter your email</label>
+        <input type="email" name="confirmEmail" id="confirmEmail" required>
+        <br><br>
+        <label for="registerPassword">Enter your password: </label>
+        <input type="password" name="registerPassword" id="registerPassword">
+        <div id="regErrors"></div>
+        <br><br>
+        <input type="submit" name="register" id="register" value="Register">
+        <p>If you want to login <a href="#" id="wantToLogin">Click Here</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

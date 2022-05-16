@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="searchMovie">
+        <label for="search" style="font-size: 28px; font-weight: 600;">Search Term: </label>
+        <br><br>
+        <input type="text" name="search" id="search">
+        <input type="button" value="Search" id="searchButton">
+        <br><br>
+        <label for="quality">Quality: </label>
+        <select name="quality" id="quality">
+            <option value="All">All</option>
+            <option value="720p">720p</option>
+            <option value="1080p">1080p</option>
+            <option value="2160p">2160p</option>
+            <option value="3D">3D</option>
+        </select>
+        <label for="genre">Genre: </label>
+        <select name="genre" id="genre">
+            <option value="All">All</option>
+            <option value="Action">Action</option>
+            <option value="Drama">Drama</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Mystery">Mystery</option>
+            <option value="Comedy">Comedy</option>
+        </select>
+        <label for="rating">Rating: </label>
+        <select name="rating" id="rating">
+            <option value="All">All</option>
+            <option value="9">9+</option>
+            <option value="8">8+</option>
+            <option value="7">7+</option>
+            <option value="6">6+</option>
+            <option value="5">5+</option>
+            <option value="4">4+</option>
+            <option value="3">3+</option>
+            <option value="2">2+</option>
+            <option value="1">1+</option>
+        </select>
+        <label for="year">Year: </label>
+        <select name="year" id="year">
+            <option value="All">All</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+        </select>
+        <label for="orderby">Order by: </label>
+        <select name="orderby" id="orderby">
+            <option value="asc">Ascending</option>
+            <option value="desc">Descending</option>
+        </select>
+        <br>
+    </div>
+    <div id="container">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
